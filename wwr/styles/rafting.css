@@ -1,0 +1,148 @@
+:root{
+    --heading-background-color:#2C3E50;
+      --heading-text-color:#FFFFFF ;
+      --heading-font: "Montserrat";
+      --text-font: "open sans"
+      --padding: 1rem;
+      --border: 1px solid rgb(0 0 0 / 0.1);
+}
+/* General Styles */
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    padding: 15px 20px;
+}
+
+.logo-box img {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E67E22;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Article Section */
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+article img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+article p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* History and Adventure Sections */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #E67E22;
+    text-align: left;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Adventure Awaits Section */
+section img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.sociallinks {
+    margin-top: 10px;
+}
+
+.sociallinks a {
+    margin: 0 10px;
+}
+
+.sociallinks img {
+    width: 30px;
+    height: auto;
+}
