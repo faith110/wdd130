@@ -63,14 +63,14 @@ nav a {
 /* Article inside Hero */
 .hero article {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.662);
     padding: 20px;
     border-radius: 10px;
     width: 80%;
-    max-width: 600px;
+    max-width: 500px;
     text-align: left;
     color: var(--text-color);
 }
