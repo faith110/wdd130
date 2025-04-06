@@ -12,12 +12,20 @@
     }
 nav{background-color:var(--heading-background-color);
     padding:var(--padding);
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
 }
-nav a{color:var( --heading-text-color); 
-    display:block; 
+nav a{color:var( --heading-text-color);  
     padding:var(--padding);
+    display:block;
+    text-decoration:none;
+    
+    
 }
-h1{color:var(--heading-background-color);
+h1{
+    color:var(--heading-background-color);
+    border-bottom: 15px;
 }
 main img{
     width:150px; 
@@ -51,6 +59,7 @@ aside h2{
 footer{margin-top:10px; 
     border-top:var( --border); 
     text-align: center;
+    
 }
 /*class selectors*/
 .box{
@@ -59,4 +68,8 @@ footer{margin-top:10px;
     padding: 1rem;
     background-color: #ddd;
     color: black;
+}
+header, footer{
+    max-width:840px;
+    margin:0;
 }
