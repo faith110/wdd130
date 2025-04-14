@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:merriweather,georgia, serif;
+    margin:0;
+    padding:1px;
+    background-color:#fff;
+    color:#333
+}
+header{
+    margin:0 auto;
+    width:650px;
+}
+h1{
+    margin:1rem;
+    font-size:1rem;
+    color:darkblue;
+    text-align:center;
+}
+form{
+    width:650px;
+    margin:0 auto;
+    padding:1rem;
+    border: 1px solidrgb(0 0 0/0.1);
+    border-radius:0.5rem;
+    background-color:#eee;
+    display:grid;
+}
