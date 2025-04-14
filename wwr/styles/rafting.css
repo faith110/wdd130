@@ -215,21 +215,34 @@ main {
   height: 300px;
 }
 
-.employees figure {
+.employee-profiles {
   text-align: center;
+  padding: 2rem;
 }
 
-.employees img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+.profiles-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
 }
 
-.employees figcaption {
+.profiles-container figure {
+  max-width: 250px;
+}
+
+.profiles-container img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profiles-container figcaption {
   margin-top: 0.5rem;
   font-weight: bold;
   font-size: 1rem;
+  color: #333;
 }
 
 .contact-form form {
