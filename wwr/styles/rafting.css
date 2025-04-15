@@ -208,6 +208,7 @@ main {
 }
 
 .map iframe {
+  width: 100%;
   border: 2px solid #444;
   border-radius: 8px;
   margin-top: 1rem;
