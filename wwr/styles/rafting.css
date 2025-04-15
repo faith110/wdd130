@@ -311,4 +311,192 @@ footer a {
   color: #fff;
   text-decoration: underline;
 }
+/* === HOME PAGE: Newsletter Form & Call to Action === */
+
+.newsletter {
+  background-color: var(--accent1-color);
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.newsletter h2 {
+  font-family: var(--heading-font);
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  padding: 0.7rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: var(--accent2-color);
+}
+
+/* Call to Action Section */
+.cta {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  background-color: var(--accent1-color);
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.cta a:hover {
+  background-color: var(--accent2-color);
+  color: white;
+}
+
+/* Home Page Grid Section */
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  margin-top: 2rem;
+}
+
+.grid-section article {
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.grid-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.social-links a img {
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+}
+
+
+/* === TRIPS PAGE === */
+
+.trips-header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.trip-packages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.trip-packages .trip {
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.trip-packages img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Trip Table */
+.trip-table-section {
+  padding: 2rem;
+  overflow-x: auto;
+}
+
+.trip-table-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+}
+
+.trip-table-section th,
+.trip-table-section td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.trip-table-section th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.trip-table-section caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Trips CTA Link */
+.trips-contact-cta {
+  text-align: center;
+  margin: 3rem auto;
+  background-color: var(--accent1-color);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.trips-contact-cta a {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.trips-contact-cta a:hover {
+  background-color: var(--accent2-color);
+}
+
+/* === END NEW STYLES === */
 
